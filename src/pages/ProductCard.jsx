@@ -26,7 +26,8 @@ const ProductCard = ({product , cartRef }) => {
         <button
           onClick={() => {
             
-            addToCart(product) 
+            addToCart(product) ;
+              scrollToCart()
     }}
           className='mt-4 bg-pink-600 hover:bg-pink-700 text-white px-4 py-2 rounded w-full transition'>
            🛒 অর্ডার করুন
